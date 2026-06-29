@@ -1,0 +1,5 @@
+mountpoints:
+  /:
+    url: "https://www.avg.com/en-eu/privacy"
+    type: "markup"
+    suffix: ".html"
