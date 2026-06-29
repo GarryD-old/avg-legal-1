@@ -11,5 +11,5 @@ jobs:
       with:
         node-version: 24
     - run: npm install --legacy-peer-deps
-    - run: npm install @babel/core --no-save
+    - run: npm install @babel/core --no-save --legacy-peer-deps
     - run: npm run lint
